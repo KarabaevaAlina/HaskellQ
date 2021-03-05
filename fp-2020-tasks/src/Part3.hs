@@ -107,7 +107,7 @@ prob24 number = iterateTriangle 1 0
         iterateTriangle currentNum currentSum
             | currentSum == number = True
             | currentSum > number = False
-            | otherwise = iterateTriangle (succ currentNum) (currentSum + currentNum)"
+            | otherwise = iterateTriangle (succ currentNum) (currentSum + currentNum)
 
 ------------------------------------------------------------
 -- PROBLEM #25
